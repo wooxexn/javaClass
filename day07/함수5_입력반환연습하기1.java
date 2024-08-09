@@ -3,7 +3,7 @@ package day07;
 public class 함수5_입력반환연습하기1 {
 
 	public static void main(String[] args) {
-		//매서드안에서 변수를 만든다 ( 지역변수)  => main 매서드에서만 사용가능하다 (유효범위 갖는다)
+		//메서드안에서 변수를 만든다 ( 지역변수)  => main 메서드에서만 사용가능하다 (유효범위 갖는다)
 		
 		a();
 		b('★');
@@ -26,9 +26,9 @@ public class 함수5_입력반환연습하기1 {
 	
 	
 	
-	//매서드만들기1
+	//메서드만들기1
 	//입력x   반환x 
-	public static void a() {      // a 매서드에서 만든 변수는 a매서드에서만 사용가능하다( 매서드가 반화될 때 변수들을 정리한다.)
+	public static void a() {      // a 메서드에서 만든 변수는 a 메서드에서만 사용가능하다( 메서드가 반화될 때 변수들을 정리한다.)
 		System.out.println("이것이 함수다");
 		
 	}

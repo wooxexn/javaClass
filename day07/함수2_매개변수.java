@@ -4,7 +4,7 @@ public class 함수2_매개변수 {
 
 	public static void main(String[] args) {
 		
-		//인사하기 매서드(함수) 만들기  : 매개변수 활용하기
+		//인사하기 메서드(함수) 만들기  : 매개변수 활용하기
 		hi2(3);
 
 		
