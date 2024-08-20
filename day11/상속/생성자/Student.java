@@ -1,4 +1,4 @@
-package day11.생성자;
+package day11.상속.생성자;
 
 public class Student extends Person{
 	int classNo;
