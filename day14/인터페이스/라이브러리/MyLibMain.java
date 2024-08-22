@@ -7,7 +7,6 @@ public class MyLibMain {
 		
 		MyLib lib = new MyLib();
 		lib.yourProgramRun(new A());
-		lib.yourProgramRun(new 전우선());
 		//lib.yourProgramRun(new MyRunnable() {});    //익명클래스 작성
 		lib.yourProgramRun(new MyRunnable() {
 			
