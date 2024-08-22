@@ -7,6 +7,17 @@ public class MyLibMain {
 		
 		MyLib lib = new MyLib();
 		lib.yourProgramRun(new A());
+		lib.yourProgramRun(new 전우선());
+		//lib.yourProgramRun(new MyRunnable() {});    //익명클래스 작성
+		lib.yourProgramRun(new MyRunnable() {
+			
+			@Override
+			public void run() {
+				System.out.println("두번 동작하는거야?");
+				
+				
+		}});
+		//익명클래스 작성
 
 	}
 
